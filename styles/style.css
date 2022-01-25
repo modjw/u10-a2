@@ -1,0 +1,82 @@
+html {
+  background-color: #ADADAD;
+  font-size: 18px;
+  font-family: Balsamiq Sans, Lato, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+  background-color: #2E1114;
+  padding: 20px;
+  margin: 0;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-txt {
+  color: white;
+}
+
+/* navbar styling */
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li:last-child {
+    float: right;
+}
+
+.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topnav li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0377fc;
+}
+
+/* main page content */
+
+
+/* footer */
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
