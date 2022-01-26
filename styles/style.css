@@ -11,17 +11,24 @@ body {
     margin: 0;
 }
 
+/* Header styling */
+
 header {
   background-color: #0d224d;
-  padding: 20px;
   margin: 0;
 }
 
 .header-title {
   display: flex;
   flex-direction: row;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
   gap: 20px;
   align-items: center;
+  padding: 20px;
 }
 
 .header-img:hover {
@@ -30,6 +37,16 @@ header {
 
 .header-txt {
   color: white;
+}
+
+.header-banner {
+  padding: 0px;
+}
+
+.header-banner-img {
+  padding: 0px;
+  height: 200px;
+  margin-left: auto;
 }
 
 /* navbar styling */
