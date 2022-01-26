@@ -1,6 +1,7 @@
 html {
-  background-color: #ADADAD;
+  background-color: #254280;
   font-size: 18px;
+  color: white;
   font-family: Balsamiq Sans, Lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #2E1114;
+  background-color: #0d224d;
   padding: 20px;
   margin: 0;
 }
@@ -40,10 +41,13 @@ header {
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #2196c4;
   top: 0;
   width: 100%;
   display: flex;
+  border-style: solid;
+  border-color: #f0eb28;
+  border-width: 1px 0px;
 }
 
 .topnav {
@@ -68,8 +72,8 @@ header {
 }
 
 .login-button {
-  background-color: #2E1114;
-  color: white;
+  background-color: #f0eb28;
+  color: #254280;
   font-family: Balsamiq Sans, Lato, sans-serif;
   font-size: 16px;
   margin: 3px;
@@ -82,7 +86,7 @@ header {
 
 /* Change the link color to #111 (black) on hover */
 .topnav li a:hover {
-  background-color: #111;
+  background-color: #254280;
 }
 
 .active {
@@ -95,7 +99,10 @@ header {
 /* footer */
 
 .footer {
-  background-color: #F1F1F1;
+  background-color: #0d224d;
   text-align: center;
   padding: 10px;
+  border-style: solid;
+  border-color: #f0eb28;
+  border-width: 1px 0px 0px;
 }
