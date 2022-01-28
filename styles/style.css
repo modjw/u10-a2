@@ -21,6 +21,7 @@ header {
 .header-title {
   display: flex;
   flex-direction: row;
+  max-height: 200px;
 }
 
 .header-left {
@@ -47,6 +48,7 @@ header {
   padding: 0px;
   height: 200px;
   margin-left: auto;
+  margin-top: auto;
 }
 
 /* navbar styling */
