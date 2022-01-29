@@ -189,6 +189,18 @@ header {
   to {opacity: 1}
 }
 
+/* Main Page */
+.main {
+    padding: 30px;
+}
+
+.welcome-header {
+    font-size: 25px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
 /* footer */
 
 .footer {
