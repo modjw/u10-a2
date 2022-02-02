@@ -9,6 +9,7 @@ html {
 
 body {
     margin: 0;
+    padding: 1px;
 }
 
 /* Header styling */
@@ -256,9 +257,119 @@ body {
     padding: 5px;
 }
 
+/* Cards */
+
+.wrapper {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.cards_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards_wrap .card_item {
+  width: 25%;
+  padding: 25px;
+}
+
+.cards_wrap .card_inner {
+  background-color: #ececec;
+}
+
+.card_inner {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 1);
+  color: black;
+  border-radius: 15px;
+}
+
+.cards_wrap .card_top {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0;
+}
+
+.cards_wrap .card_top img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+.cards_wrap .card_bottom {
+  padding: 15px;
+}
+
+.cards_wrap .card_bottom .card_category {
+  font-family: Balsamiq Sans;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+  box-shadow: 0 3px 0.5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cards_wrap .card_bottom .card_info {
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.cards_wrap .card_bottom .card_info .title {
+  color: #0071bc;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cards_wrap .card_bottom {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cards_wrap .card_item {
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards_wrap .card_item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 528px) {
+  .cards_wrap .card_item {
+    width: 100%;
+  }
+}
+
 /* Main Page */
-.main {
-    padding: 30px;
+.headteacher-welcome-container {
+    width: 100%
+}
+
+.head-welcome {
+  display: flex;
+  background-color: #ececec;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  color: black;
+}
+
+.head-welcome img {
+  align-self: flex-end;
+  border-radius: 50%;
+  padding: 20px;
 }
 
 .welcome-header {
