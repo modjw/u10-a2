@@ -32,11 +32,27 @@ body {
   max-height: 75px;
   margin-left: 10px;
   width: 50%
+  padding-left: 20px;
 }
 
 .header-right {
-  max-width: 50%
-  align-self: end;
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  margin-left: auto;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.icon {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.icon:hover {
+  opacity: 0.7;
 }
 
 .header-img:hover {
@@ -68,24 +84,26 @@ body {
 
 .main-text {
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 0;
     width: 100%;
-    height: 90%;
+    height: 50%;
     background: linear-gradient(to top, #254280, transparent);
 }
 
 .main-text img {
     position: absolute;
-    top: 60%;
+    top: 30%;
     padding: 15px;
+    padding-left: 40px;
 }
 
 .main-text h1 {
     font-size: 72px;
     position: absolute;
     left: 12%;
-    top: 60%;
+    top: 30%;
+    padding-left: 35px;
 }
 
 /* Scroller styling */
@@ -96,7 +114,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 7em;
-  padding-left: 5px;
+  padding-left: 40px;
 }
 .scroller > span {
   position: absolute;
