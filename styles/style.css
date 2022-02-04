@@ -19,6 +19,9 @@ body {
     font-family: Balsamiq Sans;
     text-shadow: 0 2px 5px rgb(0, 0, 0, 1);
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .header-left {
@@ -28,6 +31,12 @@ body {
   align-items: center;
   max-height: 75px;
   margin-left: 10px;
+  width: 50%
+}
+
+.header-right {
+  max-width: 50%
+  align-self: end;
 }
 
 .header-img:hover {
@@ -80,17 +89,20 @@ body {
 }
 
 /* Scroller styling */
+
 .scroller {
   height: 1.2em;
   line-height: 1.2em;
   position: relative;
   overflow: hidden;
-  width: 4em;
+  width: 7em;
+  padding-left: 5px;
 }
 .scroller > span {
   position: absolute;
+  padding-left: 15px;
   top: 0;
-  animation: slide 8s infinite;
+  animation: slide 10s infinite;
   font-weight: normal;
 
 }
