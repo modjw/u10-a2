@@ -491,6 +491,7 @@ body {
   border-radius: 15px;
   color: black;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 1);
+  overflow: hidden;
 }
 
 .head-welcome img {
@@ -556,6 +557,7 @@ body {
 .footer-right {
   width: 45%;
   text-align: left;
+  overflow: hidden;
 }
 
 .copy-wrapper {
