@@ -36,8 +36,8 @@ body {
   align-items: center;
   max-height: 75px;
   margin-left: 10px;
-  width: 50%
-  padding-left: 20px;
+  width: 50%;
+  padding-left: 5px;
 }
 
 .header-right {
@@ -102,6 +102,7 @@ body {
   text-align: center;
   list-style-type: none;
   padding: 10px;
+  padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -117,6 +118,10 @@ body {
   border-color: #F2D0A4;
   border-width: 1px 0px;
   box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.3);
+}
+
+.overlay-menu li:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 
 @media only screen and (max-width: 768px) {
@@ -137,6 +142,7 @@ body {
 
   .hamburger-icon {
     display: block;
+    padding-right: 10px;
   }
 
   .header-title {

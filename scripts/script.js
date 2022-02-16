@@ -3,10 +3,10 @@ autoSlides();
 
 /* Open when someone clicks on the span element */
 function mobileNav() {
-  if (document.getElementById("overNav").style.height == "auto") {
+  if (document.getElementById("overNav").style.height == "70%") {
     document.getElementById("overNav").style.height = "0";
   } else {
-    document.getElementById("overNav").style.height = "auto";
+    document.getElementById("overNav").style.height = "70%";
   }
 }
 
