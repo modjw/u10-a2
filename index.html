@@ -22,8 +22,9 @@
     <title>Maple Tree Primary School</title>
   </head>
   <body>
-
+    
   <header>
+    <div class="header-container">
       <div class="header-title">
         <div class="header-left">
           <div class="header-img">
@@ -37,14 +38,27 @@
           <a href="https://facebook.com/"><img src="images/icon-fb.png" class="icon"></a>
           <a href="https://twitter.com/"><img src="images/icon-tw.png" class="icon"></a>
           <a href="https://instagram.com/"><img src="images/icon-ig.png" class="icon"></a>
-          <div class="hamburger-icon" onclick="openNav()">
+          <div class="hamburger-icon" onclick="mobileNav()">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
           </div>
         </div>
       </div>
+    </div>
   </header>
+
+  <div class="topspace"></div>
+
+  <nav id="overNav" class="overlay">
+    <ul class="overlay-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="portal.html">Parent/Teacher Portal</a></li>
+    </ul>
+  </nav>
 
   <nav class="navbar sticky">
       <ul class="topnav">
@@ -55,17 +69,6 @@
         <li><a href="portal.html">Parent/Teacher Portal</a></li>
       </ul>
         <button class="login-button"><strong>Login</strong></button>
-  </nav>
-
-  <nav id="overNav" class="overlay">
-    <div class="closebtn" onclick="closeNav()">&times;</div>
-    <ul class="overlay-menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-      <li><a href="portal.html">Parent/Teacher Portal</a></li>
-    </ul>
   </nav>
 
 <!--  <div class="news-bar">-->
