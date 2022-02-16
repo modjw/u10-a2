@@ -1,7 +1,7 @@
 var slideIndex = 0;
 autoSlides();
 
-/* Open when someone clicks on the span element */
+/* Controls to open and close the hamburger menu */
 function mobileNav() {
   if (document.getElementById("overNav").style.height == "70%") {
     document.getElementById("overNav").style.height = "0";
