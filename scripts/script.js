@@ -1,14 +1,18 @@
 var slideIndex = 0;
 autoSlides();
 
-/* Open when someone clicks on the span element */
-function openNav() {
-  document.getElementById("overNav").style.width = "100%";
+/* Controls to open and close the hamburger menu */
+function mobileNav() {
+  if (document.getElementById("overNav").style.height == "100%") {
+    document.getElementById("overNav").style.height = "0";
+  } else {
+    document.getElementById("overNav").style.height = "100%";
+  }
 }
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
-  document.getElementById("overNav").style.width = "0%";
+  document.getElementById("overNav").style.height = "0";
 }
 
 // Next/previous controls
