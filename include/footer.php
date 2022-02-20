@@ -1,7 +1,10 @@
 <?php
-
 echo
-'<div class="footer">
+'
+<div class="space">
+    <br>
+</div>
+<div class="footer">
     <div class="footer-container">
     <div class="footer-left">
       Maple Tree Primary School<br>
@@ -26,7 +29,5 @@ echo
       <small>Copyright &copy; Maple Tree Primary 2022 All Rights Reserved</small>
     </span>
     </div>
-  </div>'
-  ;
-
+  </div>';
   ?>

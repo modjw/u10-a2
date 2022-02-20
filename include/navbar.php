@@ -2,8 +2,8 @@
 echo
 '<nav id="overNav" class="overlay">
     <ul class="overlay-menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="about.php">About Us</a></li>
       <li><a href="about.html">Admissions</a></li>
       <li><a href="news.html">News</a></li>
       <li><a href="contact.html">Contact Us</a></li>
@@ -14,12 +14,12 @@ echo
 
   <nav class="navbar sticky">
       <ul class="topnav">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <div class="dropdown">
           <li><button class="dropbtn">About</button></li>
           <i class="fa fa-caret-down"></i>
           <div class="dropdown-content">
-            <a href="#">About Us</a>
+            <a href="about.php">About Us</a>
             <a href="#">Admissions</a>
           </div>
         </div>
