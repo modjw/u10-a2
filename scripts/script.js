@@ -3,10 +3,10 @@ autoSlides();
 
 /* Controls to open and close the hamburger menu */
 function mobileNav() {
-  if (document.getElementById("overNav").style.height == "70%") {
+  if (document.getElementById("overNav").style.height == "100%") {
     document.getElementById("overNav").style.height = "0";
   } else {
-    document.getElementById("overNav").style.height = "70%";
+    document.getElementById("overNav").style.height = "100%";
   }
 }
 
