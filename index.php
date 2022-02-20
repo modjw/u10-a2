@@ -149,10 +149,6 @@
         </div>
     </div>
 
-  <div class="space">
-    <br>
-  </div>
-
   <?php include ("include/footer.php"); ?>
 
 </body>
