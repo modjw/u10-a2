@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +28,8 @@
 
 <?php include ("include/header.php"); ?>
 <?php include ("include/navbar.php"); ?>
+
+<div class="page-header"><h1>About Maple Tree Primary School</h1></div>
 
 <div class="carousel">
         <div class="carousel-photo fade">

@@ -133,6 +133,16 @@ body {
   font-size: 36px;
 }
 
+.page-header {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Balsamiq Sans;
+}
+
+.page-header h1 {
+  font-size: 48px;
+}
+
 .main-img {
     position: relative;
     max-height: 800px;
@@ -374,6 +384,7 @@ body {
   border-radius: 50%;
   border-style: solid;
   border-color: #5E0825;
+  border-width: 1px;
   display: inline-block;
   transition: background-color 0.6s ease;
 }

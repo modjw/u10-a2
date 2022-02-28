@@ -8,7 +8,7 @@ echo
       <li><a href="news.html">News</a></li>
       <li><a href="contact.html">Contact Us</a></li>
       <li><a href="portal.html">Parent/Teacher Portal</a></li>
-      <li><a href="login.html">Login</a></li>
+      <li><a href="login.php">Login</a></li>
     </ul>
   </nav>
 
@@ -25,8 +25,17 @@ echo
         </div>
         <li><a href="news.html">News</a></li>
         <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="portal.html">Parent/Teacher Portal</a></li>
-      </ul>
-        <button class="login-button"><strong>Login</strong></button>
-  </nav>';
+        <li><a href="portal.php">Parent/Teacher Portal</a></li>
+      </ul>';
+      ?>
+
+      <?php 
+        if(isset($_SESSION["loggedin"])) {
+          echo '<span class="login-button"><a href="logout.php"><strong>Logout</strong></a></span>';
+        }else{
+          echo '<span class="login-button"><a href="login.php"><strong>Login</strong></a></span>';
+        }
+        ?>
+  <?php
+  echo '</nav>';
   ?>
