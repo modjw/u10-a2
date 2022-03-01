@@ -43,7 +43,7 @@ if(!isset($_SESSION["loggedin"])) {
       <hr class="line" color="#F2D0A4" width="80%">
       <div class="portal-menu">
         <ul>
-          <li><a href="portal/account.php">Account</a></li>
+          <li><a href="portal/account.php">My Account</a></li>
           <li><a href="portal/policies.php">School Policies</a></li>
           <li><a href="portal/parent-resources.php">Parent Resources</a></li>
           <li><a href="portal/teacher-resources.php">Teacher Resources</a></li>

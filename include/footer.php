@@ -11,7 +11,7 @@ echo
       CF24 5NQ
     </div>
     <div class="footer-center">
-      <img src="images/logo.png">
+      <img src="/u10-A2/images/logo.png">
     </div>
     <div class="footer-right">
       <a href="http://google.com" style="color:white">Privacy Policy</a><br>
