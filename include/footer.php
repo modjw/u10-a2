@@ -1,9 +1,6 @@
 <?php
 echo
 '
-<div class="space">
-    <br>
-</div>
 <div class="footer">
     <div class="footer-container">
     <div class="footer-left">
@@ -14,7 +11,7 @@ echo
       CF24 5NQ
     </div>
     <div class="footer-center">
-      <img src="images/logo.png" width="100" height="100">
+      <img src="images/logo.png">
     </div>
     <div class="footer-right">
       <a href="http://google.com" style="color:white">Privacy Policy</a><br>
