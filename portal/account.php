@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['loggedin'])) {
-	header('Location: index.php');
+	header('Location: /u10-A2/index.php');
 	exit;
 }
 
@@ -73,33 +73,32 @@ $stmt->close();
           <hr class="line" width="80%">
           <img src="../images/globe-network.png" height="100px" width="100px">
           <span>
-          <p>Your account details are below:</p>
-				<table>
-                    <tr>
-						<td>Account Number:</td>
-						<td><?=$_SESSION['id']?></td>
-					</tr>
-					<tr>
-						<td>Username:</td>
-						<td><?=$_SESSION['name']?></td>
-					</tr>
-                    <tr>
-						<td>Name:</td>
-						<td><?=$firstName?> <?=$lastName?></td>
-					</tr>
-					<tr>
-						<td>Email:</td>
-						<td><?=$email?></td>
-					</tr>
-                    <tr>
-						<td>Contact Number:</td>
-						<td><?=$contactNo?></td>
-					</tr>
-                    <tr>
-						<td>Account Type:</td>
-						<td><?=$role?></td>
-					</tr>
-				</table>
+          <table>
+              <tr>
+                  <td style="font-weight: bold">Account Number:</td>
+                  <td><?=$_SESSION['id']?></td>
+              </tr>
+              <tr>
+                  <td style="font-weight: bold">Username:</td>
+                  <td><?=$_SESSION['name']?></td>
+              </tr>
+              <tr>
+                  <td style="font-weight: bold">Name:</td>
+                  <td><?=$firstName?> <?=$lastName?></td>
+              </tr>
+              <tr>
+                  <td style="font-weight: bold">Email:</td>
+                  <td><?=$email?></td>
+              </tr>
+              <tr>
+                  <td style="font-weight: bold">Contact Number:</td>
+                  <td><?=$contactNo?></td>
+              </tr>
+              <tr>
+                  <td style="font-weight: bold">Account Type:</td>
+                  <td><?=$role?></td>
+              </tr>
+            </table>
           </span>
         </div>
       </div>

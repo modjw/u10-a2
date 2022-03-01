@@ -31,9 +31,9 @@ echo
 
       <?php 
         if(isset($_SESSION["loggedin"])) {
-          echo '<span class="login-button"><a href="logout.php"><strong>Logout</strong></a></span>';
+          echo '<span class="login-button"><a href="/u10-A2/logout.php"><strong>Logout</strong></a></span>';
         }else{
-          echo '<span class="login-button"><a href="login.php"><strong>Login</strong></a></span>';
+          echo '<span class="login-button"><a href="/u10-A2/login.php"><strong>Login</strong></a></span>';
         }
         ?>
   <?php
