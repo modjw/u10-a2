@@ -528,6 +528,7 @@ body {
 .headteacher-welcome-container {
     width: 100%
     overflow: auto;
+    margin-bottom: 20px;
 }
 
 .head-welcome {
@@ -730,11 +731,68 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-.portal-welcome span br {
+.login {
+  width: 400px;
+  background-color: #F7F7F7;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.login form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #3274d6;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #f7f7f7;
+  transition: background-color 0.2s;
+}
+
+.login form input[type="submit"]:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+
+.login h1 {
+  color:rgba(0, 0, 0, 1);
+  font-size: 32px;
   padding: 20px;
+  border-bottom: 1px solid #d2d5da;
+}
+
+.login p {
+  color:rgba(0, 0, 0, 1);
+  font-size: 16px;
+  padding-top: 10px;
 }
 
 /* footer */
+
+.small-page-foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 
 .footer {
   background-color: #380516;

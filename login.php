@@ -32,6 +32,7 @@
 
   <div class="login">
     <h1>Login</h1>
+    <p>Please login to access the Parent/Teacher Portal</p>
     <form action="authenticate.php" method="post">
         <input type="text" name="username" placeholder="Username" id="username" required>
         <input type="password" name="password" placeholder="Password" id="password" required>
@@ -41,7 +42,9 @@
 
   <br>
 
-  <?php include ("include/footer.php"); ?>
+  <div class="small-page-foot">
+    <?php include ("include/footer.php"); ?>
+  </div>
 
 </body>
 </html>
