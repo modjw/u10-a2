@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -23,63 +26,10 @@
   </head>
   <body>
     
-  <header>
-    <div class="header-container">
-      <div class="header-title">
-        <div class="header-left">
-          <div class="header-img">
-            <a href="index.html"><img src="images/logo.png" alt="logo" width="50" height="50"></a>
-          </div>
-          <div class="header-txt">
-            <span>Maple Tree Primary School</span>
-          </div>
-        </div>
-        <div class="header-right">
-          <a href="https://facebook.com/"><img src="images/icon-fb.png" class="icon"></a>
-          <a href="https://twitter.com/"><img src="images/icon-tw.png" class="icon"></a>
-          <a href="https://instagram.com/"><img src="images/icon-ig.png" class="icon"></a>
-          <div class="hamburger-icon" onclick="mobileNav()">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <?php include ("include/header.php"); ?>
+  <?php include ("include/navbar.php"); ?>
 
-  <div class="topspace"></div>
-
-  <nav id="overNav" class="overlay">
-    <ul class="overlay-menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="about.html">Admissions</a></li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-      <li><a href="portal.html">Parent/Teacher Portal</a></li>
-      <li><a href="login.html">Login</a></li>
-    </ul>
-  </nav>
-
-  <nav class="navbar sticky">
-      <ul class="topnav">
-        <li><a href="index.html">Home</a></li>
-        <div class="dropdown">
-          <li><button class="dropbtn">About</button></li>
-          <i class="fa fa-caret-down"></i>
-          <div class="dropdown-content">
-            <a href="#">About Us</a>
-            <a href="#">Admissions</a>
-          </div>
-        </div>
-        <li><a href="news.html">News</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="portal.html">Parent/Teacher Portal</a></li>
-      </ul>
-        <button class="login-button"><strong>Login</strong></button>
-  </nav>
-
+  
  <!-- <div class="news-bar">
     <div class="news-text"><span>If your child has been confirmed as a positive case for COVID-19 symptoms or if they are displaying any of the 3 recognised symptoms, they should not  attend school and isolate for 10 full days from the date of their positive test.</span></div>
   </div> -->
@@ -202,36 +152,9 @@
         </div>
     </div>
 
-  <div class="space">
     <br>
-  </div>
 
-  <div class="footer">
-    <div class="footer-container">
-    <div class="footer-left">
-      Maple Tree Primary School<br>
-      123 Elementary Lane<br>
-      Penylan<br>
-      Cardiff<br>
-      CF24 5NQ
-    </div>
-    <div class="footer-center">
-      <img src="images/logo.png" width="100" height="100">
-    </div>
-    <div class="footer-right">
-      <a href="http://google.com" style="color:white">Privacy Policy</a><br>
-      <a href="http://google.com" style="color:white">Sitemap</a><br>
-      Tel: 02920 123 456<br>
-      Fax: 0800 112 223<br>
-      mapletreeprimary@example.com<br>
-    </div>
-  </div>
-    <div class="copy-wrapper">
-    <span>
-      <small>Copyright &copy; Maple Tree Primary 2022 All Rights Reserved</small>
-    </span>
-    </div>
-  </div>
+  <?php include ("include/footer.php"); ?>
 
 </body>
 </html>
