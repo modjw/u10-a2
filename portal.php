@@ -1,12 +1,9 @@
 <?php
   session_start();
-
-// If the user is at this page without logging in, redirect to the Login page
-if(!isset($_SESSION["loggedin"])) {
+  if(!isset($_SESSION["loggedin"])) {
     header('Location: login.php');
     exit;
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -45,8 +42,14 @@ if(!isset($_SESSION["loggedin"])) {
         <ul>
           <li><a href="portal/account.php">My Account</a></li>
           <li><a href="portal/policies.php">School Policies</a></li>
-          <li><a href="portal/parent-resources.php">Parent Resources</a></li>
-          <li><a href="portal/teacher-resources.php">Teacher Resources</a></li>
+          <?php
+            if($_SESSION['role'] == 1 or $_SESSION['role'] == 3) {
+              echo '<li><a href="portal/parent-resources.php">Parent Resources</a></li>';
+            }
+            if($_SESSION['role'] == 1 or $_SESSION['role'] == 2) {
+              echo '<li><a href="portal/teacher-resources.php">Teacher Resources</a></li>';
+            }
+          ?>
         </ul>
       </div>
     </div>

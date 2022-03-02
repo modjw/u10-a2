@@ -43,8 +43,14 @@ if (!isset($_SESSION['loggedin'])) {
         <ul>
           <li><a href="account.php">My Account</a></li>
           <li><a href="policies.php">School Policies</a></li>
-          <li><a href="parent-resources.php">Parent Resources</a></li>
-          <li><a href="teacher-resources.php">Teacher Resources</a></li>
+          <?php
+            if($_SESSION['role'] == 1 or $_SESSION['role'] == 3) {
+              echo '<li><a href="parent-resources.php">Parent Resources</a></li>';
+            }
+            if($_SESSION['role'] == 1 or $_SESSION['role'] == 2) {
+              echo '<li><a href="teacher-resources.php">Teacher Resources</a></li>';
+            }
+          ?>
         </ul>
       </div>
     </div>

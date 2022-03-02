@@ -4,12 +4,17 @@ echo
     <ul class="overlay-menu">
       <li><a href="/u10-A2/index.php">Home</a></li>
       <li><a href="/u10-A2/about.php">About Us</a></li>
-      <li><a href="/u10-A2/about.html">Admissions</a></li>
-      <li><a href="/u10-A2/news.html">News</a></li>
-      <li><a href="/u10-A2/contact.html">Contact Us</a></li>
-      <li><a href="/u10-A2/portal.html">Parent/Teacher Portal</a></li>
-      <li><a href="/u10-A2/login.php">Login</a></li>
-    </ul>
+      <li><a href="/u10-A2/admissions.php">Admissions</a></li>
+      <li><a href="/u10-A2/news.php">News</a></li>
+      <li><a href="/u10-A2/contact.php">Contact Us</a></li>';
+      if(isset($_SESSION["loggedin"])) {
+        echo 
+        '<li><a href="/u10-A2/portal.php">Parent/Teacher Portal</a></li>
+         <li><a href="/u10-A2/logout.php">Logout</a></li>';
+      } else {
+        echo '<li><a href="/u10-A2/login.php">Login</a></li>';
+      }
+    echo '</ul>
   </nav>
 
   <nav class="navbar sticky">
@@ -24,18 +29,16 @@ echo
           </div>
         </div>
         <li><a href="/u10-A2/news.html">News</a></li>
-        <li><a href="/u10-A2/contact.html">Contact Us</a></li>
-        <li><a href="/u10-A2/portal.php">Parent/Teacher Portal</a></li>
-      </ul>';
-      ?>
+        <li><a href="/u10-A2/contact.html">Contact Us</a></li>';
+        if(isset($_SESSION["loggedin"])) {
+          echo '<li><a href="/u10-A2/portal.php">Parent/Teacher Portal</a></li>';
+        }
+      echo '</ul>';
 
-      <?php 
         if(isset($_SESSION["loggedin"])) {
           echo '<span class="login-button"><a href="/u10-A2/logout.php"><strong>Logout</strong></a></span>';
         }else{
           echo '<span class="login-button"><a href="/u10-A2/login.php"><strong>Login</strong></a></span>';
         }
-        ?>
-  <?php
   echo '</nav>';
   ?>
