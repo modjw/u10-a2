@@ -135,12 +135,17 @@ body {
 
 .page-header {
   text-align: center;
-  padding-top: 20px;
+  padding: 20px;
   font-family: Balsamiq Sans;
 }
 
 .page-header h1 {
   font-size: 48px;
+}
+
+.page-hr {
+  width: 75%;
+  color: #F2D0A4;
 }
 
 .main-img {
@@ -596,6 +601,16 @@ body {
   text-align: center;
 }
 
+.center-p {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.statement-banner {
+  background-color:rgba(75, 7, 29, 0.8);
+}
+
 .head-welcome-block {
   background-color: #f6f6f4;
   width: 80%;
@@ -608,21 +623,28 @@ body {
   overflow: hidden;
 }
 
+.head-welcome-block hr {
+  width: 50%;
+  height: 1px;
+  border: none;
+  background-color:rgba(0, 0, 0, 1);
+}
+
 .meet-row-left {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-left: 1%;
-  gap: 10px;
+  margin-left: 50px;
+  gap: 40px;
+  padding: 20px;
 }
 
 .meet-row-right {
   width: 100%;
   display: flex;
-  justify-content: right;
   align-items: center;
-  margin-left: 1%;
-  gap: 10px;
+  margin-left: 250px;
+  gap: 40px;
 }
 
 .staff-photo {

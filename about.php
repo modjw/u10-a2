@@ -29,7 +29,10 @@
 <?php include ("include/header.php"); ?>
 <?php include ("include/navbar.php"); ?>
 
-<div class="page-header"><h1>About Maple Tree Primary School</h1></div>
+<div class="page-header">
+    <h1>About Maple Tree Primary School</h1>
+</div>
+<hr class="page-hr">
 
 <div class="carousel">
         <div class="carousel-photo fade">
@@ -65,8 +68,8 @@
     <div class="headteacher-welcome-container">
         
             <div class="welcome-text">
-                <h1 class="center-text">Vision Statement</h1>
-                <p class="center-text">"We believe that education should take place in a fully inclusive environment with equal opportunities for all and that all children should learn to value religious and cultural differences. Our school strives to be at the centre of the local community with positive and effective links to the wider and global communities."</p>
+                <h1 class="center-text">Our Vision Statement</h1>
+                <p class="center-p">"We believe that education should take place in a fully inclusive environment with equal opportunities for all and that all children should learn to value religious and cultural differences. Our school strives to be at the centre of the local community with positive and effective links to the wider and global communities."</p>
             </div>
         
     </div>
@@ -74,18 +77,18 @@
     <div class="headteacher-welcome-container">
         <div class="head-welcome-block">
             <h1 class="center-text">Meet the Staff</h1>
+            <hr>
             <div class="meet-row-left">
                 <img src="images/headteacher.png" class="staff-photo" height="125" width="125">
                 <span> This is the Headteacher of Maple Tree Primary, Ms. Veronica Pickles. Her favourite part of the school is the sense of community.</span>
             </div>
-            <br>
-            <div class="meet-row-right">
-                <span> Poppy is the therapy dog for the Infants (Years 1 to 3) and she is 11 years old. She likes sausages, ice cream, and sleeping!</span>
+            <div class="meet-row-left">
                 <img src="images/dog1.png" class="staff-photo" height="125" width="125">
+                <span> Poppy is the therapy dog for the Infants (Years 1 to 3) and she is 11 years old. She likes sausages, ice cream, and sleeping.</span>
             </div>
             <div class="meet-row-left">
                 <img src="images/dog2.png" class="staff-photo" height="125" width="125">
-                <span> Daisy is the therapy dog for the Juniors (Years 4 to 6) and she is one year old. She likes chasing birds, long walks, and eating carrots!</span>
+                <span> Daisy is the therapy dog for the Juniors (Years 4 to 6) and she is one year old. She likes chasing birds, long walks, and eating carrots.</span>
             </div>
         </div>
     </div>
