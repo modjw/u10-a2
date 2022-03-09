@@ -32,7 +32,8 @@
 <div class="page-header">
     <h1>About Maple Tree Primary School</h1>
 </div>
-<hr class="page-hr">
+
+
 
 <div class="carousel">
         <div class="carousel-photo fade">
@@ -65,13 +66,18 @@
         <br>
     </div> -->
 
+    <br>
+
     <div class="headteacher-welcome-container">
-        
+        <div class="head-welcome-block">
+            <div class="statement-banner">
             <div class="welcome-text">
                 <h1 class="center-text">Our Vision Statement</h1>
+                <hr>
                 <p class="center-p">"We believe that education should take place in a fully inclusive environment with equal opportunities for all and that all children should learn to value religious and cultural differences. Our school strives to be at the centre of the local community with positive and effective links to the wider and global communities."</p>
             </div>
-        
+            </div>
+        </div>
     </div>
 
     <div class="headteacher-welcome-container">
