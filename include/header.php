@@ -1,6 +1,6 @@
 <?php
 echo
-'<header>
+  '<header>
     <div class="header-container">
       <div class="header-title">
         <div class="header-left">
@@ -24,6 +24,6 @@ echo
       </div>
     </div>
   </header>
-
+  
   <div class="topspace"></div>';
-  ?>
+?>

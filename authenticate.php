@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 // Connection info
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'root';

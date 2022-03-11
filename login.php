@@ -17,34 +17,30 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Mr+Dafoe&display=swap" rel="stylesheet">
 
     <title>Maple Tree Primary School</title>
   </head>
   <body>
     
-  <?php include ("include/header.php"); ?>
-  <?php include ("include/navbar.php"); ?>
+    <?php include ("include/header.php"); ?>
+    <?php include ("include/navbar.php"); ?>
 
-  <div class="login">
-    <h1>Login</h1>
-    <p>Please login to access the Parent/Teacher Portal</p>
-    <form action="authenticate.php" method="post">
+    <div class="login">
+      <h1>Login</h1>
+      <p>Please login to access the Parent/Teacher Portal</p>
+      <form action="authenticate.php" method="post">
         <input type="text" name="username" placeholder="Username" id="username" required>
         <input type="password" name="password" placeholder="Password" id="password" required>
         <input type="submit" value="Login">
-    </form>
-  </div>
+      </form>
+    </div>
 
-  <br>
+    <br>
 
-  <div class="small-page-foot">
-    <?php include ("include/footer.php"); ?>
-  </div>
+    <div class="small-page-foot">
+      <?php include ("include/footer.php"); ?>
+    </div>
 
-</body>
+  </body>
 </html>
