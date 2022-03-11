@@ -57,7 +57,7 @@
 
 <div class="wrapper">
   <div class="cards_wrap">
-    <a href="index.html" class="card_item">
+    <a href="admissions.php" class="card_item">
       <div class="card_inner">
         <div class="card_top">
           <img src="images/card-1.png" alt="car" />
@@ -78,7 +78,7 @@
         </div>
       </div>
     </a>
-    <a href="index.html" class="card_item">
+    <a href="news.php" class="card_item">
       <div class="card_inner">
         <div class="card_top">
           <img src="images/card-2.jpg" alt="car" />
@@ -99,7 +99,7 @@
         </div>
       </div>
     </a>
-    <a href="index.html" class="card_item">
+    <a href="news.php" class="card_item">
       <div class="card_inner">
         <div class="card_top">
           <img src="images/card-3.png" alt="car"/>
@@ -130,7 +130,7 @@
           <div class="welcome-text">
             <h2>A Welcome Message from our Headteacher</h2>
             <p>
-            Welcome to the website for Maple Tree Primary School. We hope that you find it informative, useful and easy for pupils, parents, governors to access.
+            Welcome to the website for Maple Tree Primary School. We hope that you find it informative, useful and easy for pupils, parents and governors to access.
             </p>
             <p>
             At Maple Tree Primary School, we work as a family with pupils, staff, parents, and the wider community. Each individual is valued and nurtured within a safe, stimulating, happy and caring environment where fairness and equal opportunities prevail. Everyone is given opportunities to achieve excellence whilst remaining sensitive to the needs of others.

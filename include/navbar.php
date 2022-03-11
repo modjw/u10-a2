@@ -28,8 +28,8 @@ echo
             <a href="/u10-A2/admissions.php">Admissions</a>
           </div>
         </div>
-        <li><a href="/u10-A2/news.html">News</a></li>
-        <li><a href="/u10-A2/contact.html">Contact Us</a></li>';
+        <li><a href="/u10-A2/news.php">News</a></li>
+        <li><a href="/u10-A2/contact.php">Contact Us</a></li>';
         if(isset($_SESSION["loggedin"])) {
           echo '<li><a href="/u10-A2/portal.php">Parent/Teacher Portal</a></li>';
         }

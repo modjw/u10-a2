@@ -2,7 +2,7 @@ html {
   background-color: #394b6a;
   font-size: 18px;
   color: #F7F7FF;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -19,14 +19,14 @@ body {
 /* Header styling */
 
 .header-title {
-    background-color: #380516;
-    font-weight: bold;
-    font-family: Balsamiq Sans;
-    text-shadow: 0 2px 5px rgb(0, 0, 0, 1);
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+  background-color: #380516;
+  font-weight: bold;
+  font-family: Balsamiq Sans;
+  text-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .header-left {
@@ -134,19 +134,31 @@ body {
 }
 
 .page-header {
+  background-image: url('../images/pageheader.png');
   text-align: center;
-  padding-top: 20px;
+  padding: 20px;
+  font-weight: bold;
   font-family: Balsamiq Sans;
+  text-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+  border-style: solid;
+  border-color: #F2D0A4;
+  border-width: 1px 0px;
+  box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.3);
 }
 
 .page-header h1 {
   font-size: 48px;
 }
 
+.page-hr {
+  width: 75%;
+  color: #F2D0A4;
+}
+
 .main-img {
     position: relative;
     max-height: 800px;
-    max-width: 100%
+    max-width: 100%;
     object-fit: cover;
     font-family: Balsamiq Sans;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 1);
@@ -383,14 +395,14 @@ body {
   background-color: #F2D0A4;
   border-radius: 50%;
   border-style: solid;
-  border-color: #5E0825;
-  border-width: 1px;
+  border-color: #F7F7F7;
+  border-width: 0px;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #5E0825;;
+  background-color: #5E0825;
 }
 
 .fade {
@@ -526,9 +538,10 @@ body {
 
 /* Main Page */
 .headteacher-welcome-container {
-    width: 100%
+    width: 100%;
     overflow: auto;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .head-welcome {
@@ -591,9 +604,44 @@ body {
 }
 
 .center-text {
-  width: 100%
-  padding: 40px;
+  width: 100%;
+  padding: 10px;
   text-align: center;
+}
+
+.center-p {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 25px 0px 25px;
+  list-style-type: none;
+}
+
+.welcome-text blockquote {
+  border-left: 10px solid #394b6a;
+  padding: 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 20px;
+  font-style: italic;
+}
+
+blockquote:before {
+  color: #394b6a;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: #394b6a;
+  position: absolute;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 1em;
+  margin-left: 20px;
+  vertical-align: -0.4em;
 }
 
 .head-welcome-block {
@@ -605,34 +653,45 @@ body {
   border-radius: 15px;
   color: black;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 1);
-  overflow: hidden;
+}
+
+.head-welcome-block hr {
+  width: 50%;
+  height: 1px;
+  border: none;
+  background-color:rgba(0, 0, 0, 1);
 }
 
 .meet-row-left {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-left: 1%;
-  gap: 10px;
+  margin-left: 50px;
+  gap: 40px;
+  padding: 20px;
 }
 
-.meet-row-right {
-  width: 100%;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  margin-left: 1%;
-  gap: 10px;
+.meet-row-left span {
+  margin-right: 10%;
 }
 
 .staff-photo {
   border-radius: 50%;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   margin-right: 20px;
   margin-top: auto;
   margin-bottom: auto;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.news-item {
+  text-align: center;
+}
+
+.news-img {
+  max-width: 50%;
+  border: 1px solid black;
 }
 
 /* Portal Styling */
@@ -734,7 +793,7 @@ body {
 .login {
   width: 400px;
   background-color: #F7F7F7;
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-radius: 5px;
@@ -783,6 +842,26 @@ body {
   color:rgba(0, 0, 0, 1);
   font-size: 16px;
   padding-top: 10px;
+}
+
+.contact {
+  padding: 0;
+  width: 80%;
+}
+
+.contact form {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.contact form input[type="text"] {
+  width: 95%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact form input[id="message"] {
+  height: 200px;
 }
 
 /* footer */
@@ -840,6 +919,21 @@ body {
   padding-top: 20px;
 }
 
+/* Mobile Formatting */
+
+@media (max-width: 1200px) {
+  .carousel {
+    max-width: 750px;
+  }
+
+  .carousel-prev, .carousel-next {
+    margin-top: -22px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #F7F7F7;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .topspace {
     display: block;
@@ -892,5 +986,11 @@ body {
     top: 25%;
     height: auto;
     width: 100%;
+  }
+
+  .meet-row-left {
+    gap: 0;
+    text-align: center;
+    margin-left: 0;
   }
 }

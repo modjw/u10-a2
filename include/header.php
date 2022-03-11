@@ -5,7 +5,7 @@ echo
       <div class="header-title">
         <div class="header-left">
           <div class="header-img">
-            <a href="index.html"><img src="/u10-A2/images/logo.png" alt="logo" width="50" height="50"></a>
+            <a href="/u10-a2/index.php"><img src="/u10-A2/images/logo.png" alt="logo" width="50" height="50"></a>
           </div>
           <div class="header-txt">
             <span>Maple Tree Primary School</span>
