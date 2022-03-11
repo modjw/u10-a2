@@ -32,19 +32,28 @@
 <div class="page-header">
     <h1>Contact Us</h1>
 </div>
-<hr class="page-hr">
 
-    <!-- <div class="space">
+    <div class="space">
         <br>
-    </div> -->
+    </div>
 
     <div class="headteacher-welcome-container">
         <div class="head-welcome-block">
             <h1 class="center-text">Contact Us</h1>
             <hr>
-            <p>A Contact Us form will go here.</p>
+            <p class="center-p">You can contact our school using the form below. We will endeavour to reply as soon as possible.</p>
         </div>
     </div>
+
+    <div class="login contact">
+        <p>Please fill in all fields</p>
+        <form>
+        <input type="text" name="name" placeholder="Name" id="name" required>
+        <input type="text" name="email" placeholder="Contact E-mail" id="email" required>
+        <input type="text" name="message" placeholder="Please enter your enquiry here" id="message" required>
+        <input type="submit" value="Submit">
+    </form>
+  </div>
 
     <br>
 

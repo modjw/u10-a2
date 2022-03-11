@@ -26,7 +26,7 @@
 <?php include ("include/navbar.php"); ?>
 
 <div class="page-header">
-    <h1>About Maple Tree Primary School</h1>
+    <h1>About Our School</h1>
 </div>
 
 
@@ -57,10 +57,6 @@
         <span class="dot" onclick="currentSlide(4)"></span>
     </div>
 </div>
-
-    <!-- <div class="space">
-        <br>
-    </div> -->
 
     <br>
 

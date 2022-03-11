@@ -610,9 +610,11 @@ body {
 }
 
 .center-p {
-  width: 70%;
+  width: 80%;
   text-align: center;
   margin: auto;
+  padding: 25px 0px 25px;
+  list-style-type: none;
 }
 
 .welcome-text blockquote {
@@ -676,11 +678,20 @@ blockquote:after {
 .staff-photo {
   border-radius: 50%;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   margin-right: 20px;
   margin-top: auto;
   margin-bottom: auto;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.news-item {
+  text-align: center;
+}
+
+.news-img {
+  max-width: 50%;
+  border: 1px solid black;
 }
 
 /* Portal Styling */
@@ -782,7 +793,7 @@ blockquote:after {
 .login {
   width: 400px;
   background-color: #F7F7F7;
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-radius: 5px;
@@ -831,6 +842,26 @@ blockquote:after {
   color:rgba(0, 0, 0, 1);
   font-size: 16px;
   padding-top: 10px;
+}
+
+.contact {
+  padding: 0;
+  width: 80%;
+}
+
+.contact form {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.contact form input[type="text"] {
+  width: 95%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact form input[id="message"] {
+  height: 200px;
 }
 
 /* footer */

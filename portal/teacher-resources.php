@@ -64,16 +64,16 @@ if (!isset($_SESSION['loggedin'])) {
           <p>On this page you will find sample worksheets, activities, and learning resources to assist in creating lesson plans.</p>
           <hr>
           <h3>Curriculum Information</h3>
-          <p><a href="../files/example.txt" download>School Trip Permission Form</a></p>
-          <p><a href="../files/example.txt" download>School Dinners Application Form</a></p>
-          <p><a href="../files/example.txt" download>Leave of Absence Form</a></p>
+          <p><a href="../files/example.txt" download>Lower School Curriculum (Infants Years 1 - 3)</a></p>
+          <p><a href="../files/example.txt" download>Higher School Curriculum (Juniors Years 4 - 6)</a></p>
           <hr>
           <h3>Worksheets</h3>
-          <p><a href="../files/example.txt" download>Learning Plan (Infants Years 1 - 3)</a></p>
-          <p><a href="../files/example.txt" download>Learning Plan (Juniors Years 4 - 6)</a></p>
+          <p><a href="../files/example.txt" download>Science Worksheets - Solar System</a></p>
+          <p><a href="../files/example.txt" download>English Worksheets - Letters and Punctuation</a></p>
+          <p><a href="../files/example.txt" download>Maths Worksheets - Shapes and Numbers</a></p>
           <hr>
           <h3>External Resources</h3>
-          <p><a href="http://google.com" download>External Website</a></p>
+          <p><a href="http://google.com">Teaching Websites</a></p>
           <hr>
           </span>
         </div>

@@ -32,17 +32,21 @@
 <div class="page-header">
     <h1>Admissions</h1>
 </div>
-<hr class="page-hr">
 
-    <!-- <div class="space">
+    <div class="space">
         <br>
-    </div> -->
+    </div>
 
     <div class="headteacher-welcome-container">
         <div class="head-welcome-block">
             <h1 class="center-text">Admissions Information</h1>
             <hr>
-            <p>Admissions information will go here.</p>
+            <p class="center-p">We are currently planning for our September 2022 intake of students.</p>
+            <p class="center-p">If you would like your child to attend our school, please see full details of our admissions policies below.</p>
+            <p class="center-p">You can apply for admissions through the link to the Cardiff Council Primary School Admissions website below.</p>
+            <p class="center-p"><a href="files/example.txt" download>2022 - 2023 Admissions Policy</a></p>
+            <p class="center-p"><a href="https://www.cardiff.gov.uk/ENG/resident/Schools-and-learning/Schools/Applying-for-a-school-place/Primary-school/Pages/default.aspx">Cardiff Council Admissions Website</a></p>
+            <hr>
         </div>
     </div>
 

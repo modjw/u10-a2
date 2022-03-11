@@ -32,33 +32,24 @@
 <div class="page-header">
     <h1>News</h1>
 </div>
-<hr class="page-hr">
 
-    <!-- <div class="space">
+    <div class="space">
         <br>
-    </div> -->
-
-    <div class="headteacher-welcome-container">
-        <div class="head-welcome-block">
-            <h1 class="center-text">News Article</h1>
-            <hr>
-            <p>News text will go here</p>
-        </div>
     </div>
 
     <div class="headteacher-welcome-container">
         <div class="head-welcome-block">
-            <h1 class="center-text">News Article</h1>
-            <hr>
-            <p>News text will go here</p>
-        </div>
-    </div>
-
-    <div class="headteacher-welcome-container">
-        <div class="head-welcome-block">
-            <h1 class="center-text">News Article</h1>
-            <hr>
-            <p>News text will go here</p>
+            <h1 class="center-text">School Sports Day Triumph</h1>
+            <div class="news-item">
+                <img src="images/news1.png" class="news-img">
+                <p class="center-p news-date">Date Published: 10/03/2022</p>
+                <hr>
+                <p class="center-p">Congratulations to all who took part in the school sports day. The final scores for the teams are below:
+                    <ul class="center-p"><li>Red Team: 36 Points</li>
+                    <li>Blue Team: 24 Points</li>
+                    <li>Yellow Team: 11 Points</li>
+                    <li>Green Team: 29 Points</li></ul></p>
+            </div>
         </div>
     </div>
 
