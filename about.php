@@ -16,11 +16,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Mr+Dafoe&display=swap" rel="stylesheet">
 
     <title>Maple Tree Primary School</title>
   </head>
@@ -73,28 +69,54 @@
             <div class="statement-banner">
             <div class="welcome-text">
                 <h1 class="center-text">Our Vision Statement</h1>
-                <hr>
-                <p class="center-p">"We believe that education should take place in a fully inclusive environment with equal opportunities for all and that all children should learn to value religious and cultural differences. Our school strives to be at the centre of the local community with positive and effective links to the wider and global communities."</p>
+                <blockquote class="center-p">
+                    "We believe that education should take place in a fully inclusive environment with equal opportunities for all
+                     and that all children should learn to value religious and cultural differences. Our school strives to be at the
+                     centre of the local community with positive and effective links to the wider and global communities."
+                </blockquote>
             </div>
             </div>
         </div>
     </div>
 
+    <br>
+
     <div class="headteacher-welcome-container">
         <div class="head-welcome-block">
             <h1 class="center-text">Meet the Staff</h1>
+            <div class="meet-row-left">
+                <div>
+                    <img src="images/headteacher.png" class="staff-photo" height="125" width="125">
+                </div>
+                <span> This is the Headteacher of Maple Tree Primary, Ms. Pickles. Her favourite part of the school is the sense of community.</span>
+            </div>
             <hr>
             <div class="meet-row-left">
-                <img src="images/headteacher.png" class="staff-photo" height="125" width="125">
-                <span> This is the Headteacher of Maple Tree Primary, Ms. Veronica Pickles. Her favourite part of the school is the sense of community.</span>
+                <div>
+                    <img src="images/teacher2.png" class="staff-photo" height="125" width="125">
+                </div>
+                <span>Mr. Whitlingham is the Deputy Headteacher of Maple Tree Primary, and has been at the school for 10 years. His favourite part of the school is the holidays.</span>
             </div>
+            <hr>
             <div class="meet-row-left">
-                <img src="images/dog1.png" class="staff-photo" height="125" width="125">
-                <span> Poppy is the therapy dog for the Infants (Years 1 to 3) and she is 11 years old. She likes sausages, ice cream, and sleeping.</span>
+                <div>
+                    <img src="images/teacher1.png" class="staff-photo" height="125" width="125">
+                </div>
+                <span>Mrs. Caramel has been at the school for 5 years and is the curriculum co-ordinator. Her favourite thing about the school is the children.</span>
             </div>
+            <hr>
             <div class="meet-row-left">
-                <img src="images/dog2.png" class="staff-photo" height="125" width="125">
-                <span> Daisy is the therapy dog for the Juniors (Years 4 to 6) and she is one year old. She likes chasing birds, long walks, and eating carrots.</span>
+                <div>
+                    <img src="images/dog1.png" class="staff-photo" height="125" width="125">
+                </div>
+                <span>Poppy is the therapy dog for the Infants (Years 1 to 3) and she is 11 years old. She likes sausages, ice cream, and sleeping.</span>
+            </div>
+            <hr>
+            <div class="meet-row-left">
+                <div>
+                    <img src="images/dog2.png" class="staff-photo" height="125" width="125">
+                </div>
+                <span>Daisy is the therapy dog for the Juniors (Years 4 to 6) and she is one year old. She likes chasing birds, long walks, and eating carrots.</span>
             </div>
         </div>
     </div>
