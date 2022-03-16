@@ -14,7 +14,7 @@ echo
       </div>
       <div class="footer-right">
         <a href="/u10-a2/files/example.txt" style="color:white" download>Privacy Policy</a><br>
-        <a href="http://google.com" style="color:white">Sitemap</a><br>
+        <a href="/u10-a2/images/sitemap.png" style="color:white">Sitemap</a><br>
         Tel: 02920 123 456<br>
         Fax: 0800 112 223<br>
         mapletreeprimary@example.com<br>
