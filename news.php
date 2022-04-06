@@ -6,7 +6,7 @@
 <html lang="en">
   <head>
     <meta name="author" content="Dominic Wheeler">
-    <meta name="description" content="A school website">
+    <meta name="description" content="The latest news and developments from Maple Tree Primary School in Cardiff">
     <meta name="robots" content="noindex, nofollow">
     <meta name="keywords" content="school">
     <meta charset="utf-8">

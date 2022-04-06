@@ -6,7 +6,7 @@
 <html lang="en-US">
   <head>
     <meta name="author" content="Dominic Wheeler">
-    <meta name="description" content="A school website">
+    <meta name="description" content="Homepage for Maple Tree Primary School - We Dream, We Believe, We Achieve, We Succeed">
     <meta name="robots" content="noindex, nofollow">
     <meta name="keywords" content="school">
     <meta charset="utf-8">
@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Mr+Dafoe&display=swap" rel="stylesheet">
 
-    <title>Maple Tree Primary School</title>
+    <title>Maple Tree Primary School - Home</title>
   </head>
   <body>
     

@@ -31,7 +31,6 @@ if ($stmt = $con->prepare('SELECT id, password, roleId FROM accounts WHERE usern
         $stmt->bind_result($id, $password, $role);
         $stmt->fetch();
         // Account exists, now we verify the password.
-        // Note: remember to use password_hash in your registration file to store the hashed passwords.
         if (password_verify($_POST['password'], $password)) {
             // Successful Login
             session_regenerate_id();
