@@ -12,9 +12,9 @@ echo
           </div>
         </div>
         <div class="header-right">
-          <a href="https://facebook.com/"><img src="/u10-A2/images/icon-fb.png" class="icon"></a>
-          <a href="https://twitter.com/"><img src="/u10-A2/images/icon-tw.png" class="icon"></a>
-          <a href="https://instagram.com/"><img src="/u10-A2/images/icon-ig.png" class="icon"></a>
+          <a href="https://facebook.com/"><img src="/u10-A2/images/icon-fb.png" alt="Facebook" class="icon"></a>
+          <a href="https://twitter.com/"><img src="/u10-A2/images/icon-tw.png" alt="Twitter" class="icon"></a>
+          <a href="https://instagram.com/"><img src="/u10-A2/images/icon-ig.png" alt="Instagram" class="icon"></a>
           <div class="hamburger-icon" onclick="mobileNav()">
             <span class="bar"></span>
             <span class="bar"></span>

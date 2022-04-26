@@ -27,7 +27,7 @@
     <?php include ("include/navbar.php"); ?>
 
     <div class="main-img">
-      <img class ="mask1" src="images/fullsizeclassroom-2.png" style="width:100%;">
+      <img class ="mask1" src="images/fullsizeclassroom-2.png" alt="Maple Tree Primary Students" style="width:100%;">
       <div class="main-text">
         <img src="images/logo.png" alt="logo" width="200" height="200">
         <h1>Welcome to Maple Tree Primary School</h1>
@@ -136,7 +136,7 @@
           Headteacher at Maple Tree Primary School
           </p>
         </div>
-        <img src="images/headteacher.png" height="300" width="300">
+        <img src="images/headteacher.png" alt="Headteacher" height="300" width="300">
       </div>
     </div>
 
