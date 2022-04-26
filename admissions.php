@@ -6,9 +6,9 @@
 <html lang="en">
 <head>
     <meta name="author" content="Dominic Wheeler">
-    <meta name="description" content="A school website">
+    <meta name="description" content="Admissions information for Maple Tree Primary School in Cardiff">
     <meta name="robots" content="noindex, nofollow">
-    <meta name="keywords" content="school">
+    <meta name="keywords" content="school, cardiff, primary, education, community, students, pupils, learning">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Mr+Dafoe&display=swap" rel="stylesheet">
 
-    <title>Maple Tree Primary School</title>
+    <title>Maple Tree Primary School - Admissions Information</title>
   </head>
   <body>
 
